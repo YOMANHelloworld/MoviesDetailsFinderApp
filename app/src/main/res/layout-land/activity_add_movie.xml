@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddMovie">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/movname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Add the movie name"
+                android:layout_margin="10dp"
+                android:padding="10dp" />
+            <EditText
+                android:id="@+id/movyear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Add the movie year"
+                android:layout_margin="10dp"
+                android:padding="10dp" />
+            <EditText
+                android:id="@+id/movrate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Add the movie rate like R rated"
+                android:layout_margin="10dp"
+                android:padding="10dp" />
+            <EditText
+                android:id="@+id/movreleased"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Add the movie released date"
+                android:layout_margin="10dp"
+                android:padding="10dp" />
+            <EditText
+                android:id="@+id/movruntime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Add the movie runtime"
+                android:layout_margin="10dp"
+                android:padding="10dp" />
+            <EditText
+                android:id="@+id/movgenre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Add the movie genre"
+                android:layout_margin="10dp"
+                android:padding="10dp" />
+            <EditText
+                android:id="@+id/movdirector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Add the movie director"
+                android:layout_margin="10dp"
+                android:padding="10dp" />
+            <EditText
+                android:id="@+id/movwriter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Add the movie writer"
+                android:layout_margin="10dp"
+                android:padding="10dp" />
+            <EditText
+                android:id="@+id/movactor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Add the movie actor"
+                android:layout_margin="10dp"
+                android:padding="10dp" />
+            <EditText
+                android:id="@+id/movplot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Add the movie plot"
+                android:layout_margin="10dp"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/insertmov"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Movie" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
